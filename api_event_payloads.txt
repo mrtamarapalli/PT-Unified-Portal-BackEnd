@@ -1,0 +1,154 @@
+account_details
+{
+  "httpMethod": "GET",
+  "path": "/accountdetails",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": null,
+  "isBase64Encoded": false
+}
+
+##############################################################################################
+sidenavdetails
+{
+  "httpMethod": "GET",
+  "path": "/sidenavdetails",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": null,
+  "isBase64Encoded": false
+}
+###############################################################################################
+securitygroupdetails
+{
+  "httpMethod": "POST",
+  "path": "/securitygroupdetails",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "accountid": "566692369023",
+    "groupid": [
+      "sg-aa0050d4",
+      "sg-5a32fd23"
+    ]
+  },
+  "isBase64Encoded": false
+}
+###############################################################################################
+usermanagement
+
+{
+  "httpMethod": "GET",
+  "path": "/usermanagement",
+  "queryStringParameters": {
+    "cloudprovider": "aws",
+    "resource": "ec2",
+    "emailid": "nagatriveni.singareddy@carbynetech.com"
+  }
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": null,
+  "isBase64Encoded": false
+}
+###############################################################################################
+dropdown_details
+{
+  "httpMethod": "GET",
+  "path": "/instance_dropdown_details",
+  "queryStringParameters": {
+    "cloudprovider": "aws",
+    "resource": "ec2",
+    "accountid": "566692369023"
+  },
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": null,
+  "isBase64Encoded": false
+}
+###############################################################################################
+instance_table
+{
+  "httpMethod": "GET",
+  "path": "/instance_table",
+  "queryStringParameters": {
+    "accountid": "566692369023",
+    "platform": "aws",
+    "requestedinstance": "ec2"
+  },
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": null,
+  "isBase64Encoded": false
+}
+###############################################################################################
+update_status
+
+{
+  "httpMethod": "POST",
+  "path": "/update_table",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+
+            "requestedInstance": "EC2",
+
+            "createdDate": "08/09/2023",
+
+            "accountId": "566692369023",
+
+            "createdFor": "sampletest",
+
+            "status": "Completed",
+
+            "instanceName": "sampleinstance",
+
+            "requestedOn": "8/09/2023",
+
+            "createdBy": "sampletest",
+
+            "RITMID": "RIT0000567890",
+
+            "platform": "AWS",
+
+            "instanceID": "i-98090160",
+
+            "uuid": "201",
+
+            "comment": "",
+            PROJ00101-RITM000521-SQ01-RITM000521-00
+
+            "instanceType": "c3.large",
+
+            "availabilityZone": "us-east-1",
+            "operation":"insert"
+
+        },
+  "isBase64Encoded": false
+}
+###############################################################################################
+update_status
+
+{
+  "httpMethod": "POST",
+  "path": "/update_table",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+            "status":"completed",
+            "uuid": "200",
+
+            "comment": "sample2",
+            "operation":"update"
+
+        },
+  "isBase64Encoded": false
+}
+

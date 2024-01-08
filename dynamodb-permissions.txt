@@ -1,0 +1,21 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "dynamodb:GetItem",   // or other DynamoDB read actions
+                "dynamodb:Query",     // if you're using queries
+                "dynamodb:Scan",      // if you're using scans
+            ],
+            "Resource": "arn:aws:dynamodb:your-region:your-account-id:table/YourTableName"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "kms:Decrypt"
+            ],
+            "Resource": "arn:aws:kms:your-region:your-account-id:key/your-kms-key-id"
+        }
+    ]
+}

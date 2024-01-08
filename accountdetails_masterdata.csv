@@ -1,0 +1,8 @@
+id,AccountId,AliasName,managementgroup,region,VPCID,vpcname
+2,5.66692E+11,account1,m1,us-east-1a,vpc-ab0e6ecf,vpc1
+1,5.66692E+11,account2,m1,us-east-1a,vpc-ab0e6ecf,vpc1
+6,5.66692E+11,account3,m2,us-east-1a,vpc-ab0e6ecf,vpc1
+5,5.66692E+11,account4,m2,us-east-1a,vpc-ab0e6ecf,vpc1
+4,5.66692E+11,account5,m1,us-east-1a,vpc-ab0e6ecf,vpc1
+7,5.66692E+11,account6,m1,us-east-1a,vpc-ab0e6ecf,vpc1
+3,5.66692E+11,account7,m1,us-east-1a,vpc-ab0e6ecf,vpc1

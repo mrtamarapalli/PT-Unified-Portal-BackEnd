@@ -1,0 +1,34 @@
+import boto3
+
+# Assuming you have configured your AWS credentials using AWS CLI or environment variables
+region_name = 'your_region_name'  # Replace with your desired region
+
+# Create a KMS client for the specified region
+kms_client = boto3.client('kms', region_name=region_name)
+
+# Initialize an empty list to store KMS key information
+kms_keys_info = []
+
+# Use a loop to handle pagination for KMS keys
+paginator_keys = kms_client.get_paginator('list_keys')
+for response_keys in paginator_keys.paginate():
+    keys = response_keys['Keys']
+    for key in keys:
+        key_info = {'KeyId': key['KeyId']}
+        kms_keys_info.append(key_info)
+
+# Use a loop to handle pagination for KMS key aliases
+paginator_aliases = kms_client.get_paginator('list_aliases')
+for response_aliases in paginator_aliases.paginate():
+    aliases = response_aliases['Aliases']
+    for alias in aliases:
+        # Find the corresponding key info based on the alias target key ID
+        target_key_id = alias['TargetKeyId']
+        for key_info in kms_keys_info:
+            if key_info['KeyId'] == target_key_id:
+                key_info['AliasName'] = alias['AliasName']
+
+# Print the KMS key information
+for key_info in kms_keys_info:
+    print(
+        f"KMS Key ID: {key_info['KeyId']}, Alias Name: {key_info.get('AliasName', 'No Alias')}")

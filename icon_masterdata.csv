@@ -1,0 +1,25 @@
+id,icon,name
+22,https://gen-mohammadbucket.s3.amazonaws.com/icons/RDS.png,RDS
+18,https://gen-mohammadbucket.s3.amazonaws.com/icons/EC2.png,EC2
+16,https://gen-mohammadbucket.s3.amazonaws.com/icons/S3.png,S3
+2,https://gen-mohammadbucket.s3.amazonaws.com/icons/AWS.png,AWS
+13,https://gen-mohammadbucket.s3.amazonaws.com/icons/User+Management.png,User Management
+8,https://gen-mohammadbucket.s3.amazonaws.com/icons/costmanagement.png,Cost Management
+1,https://gen-mohammadbucket.s3.amazonaws.com/icons/Cloud+Service.png,Cloud Services
+31,https://gen-mohammadbucket.s3.amazonaws.com/icons/Add+User.png,Add User
+28,https://gen-mohammadbucket.s3.amazonaws.com/icons/Forecast.png,Forecast
+30,https://gen-mohammadbucket.s3.amazonaws.com/icons/Search+Logs.png,Search Logs
+24,https://gen-mohammadbucket.s3.amazonaws.com/icons/Blob.png,Blob
+27,https://gen-mohammadbucket.s3.amazonaws.com/icons/Charge+Back.png,Chargeback
+4,https://gen-mohammadbucket.s3.amazonaws.com/icons/Reports.png,Reports
+23,https://gen-mohammadbucket.s3.amazonaws.com/icons/SQL+Database.png,Sql
+19,https://gen-mohammadbucket.s3.amazonaws.com/icons/Lamda.png,Lambda
+26,https://gen-mohammadbucket.s3.amazonaws.com/icons/Optimization.png,Optimization
+3,https://gen-mohammadbucket.s3.amazonaws.com/icons/Azure.png,Azure
+20,https://gen-mohammadbucket.s3.amazonaws.com/icons/Database.png,Database
+29,https://gen-mohammadbucket.s3.amazonaws.com/icons/Spend.png,Spend
+21,https://gen-mohammadbucket.s3.amazonaws.com/icons/Dynamo+DB.png,DynamoDB
+25,https://gen-mohammadbucket.s3.amazonaws.com/icons/Icons_VM.png,VM
+17,https://gen-mohammadbucket.s3.amazonaws.com/icons/Compute.png,Compute
+15,https://gen-mohammadbucket.s3.amazonaws.com/icons/EFS.png,EFS
+14,https://gen-mohammadbucket.s3.amazonaws.com/icons/Storage.png,Storage

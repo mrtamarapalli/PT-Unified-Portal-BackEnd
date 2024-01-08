@@ -1,0 +1,17 @@
+id,resource,sidenav_child,sidenav_parent,sidnav_subchild
+22,EFS,AWS,Cloud Services,Storage
+2,S3,AWS,Cloud Services,Storage
+13,,Optimization,Cost Management,
+8,,,Reports,
+1,EC2,AWS,Cloud Services,Compute
+6,Sql,Azure,Cloud Services,Database
+5,Blob,Azure,Cloud Services,Storage
+4,VM,Azure,Cloud Services,Compute
+11,,Chargeback,Cost Management,
+3,DynamoDB,AWS,Cloud Services,Database
+20,Lambda,AWS,Cloud Services,Compute
+21,RDS,AWS,Cloud Services,Database
+12,,Forecast,Cost Management,
+10,,Spend,Cost Management,
+15,,Search Logs,User Management,
+14,,Add User,User Management,

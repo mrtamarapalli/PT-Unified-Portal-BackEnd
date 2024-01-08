@@ -1,0 +1,27 @@
+import boto3
+
+# Create an EC2 client
+ec2_client = boto3.client('ec2')
+
+# Initialize the NextToken to None
+next_token = None
+
+# Paginate through the results
+while True:
+    # Use the describe_images method with the NextToken parameter
+    response = ec2_client.describe_images(
+        NextToken=next_token
+        # Add other parameters as needed
+    )
+
+    # Process the results
+    for image in response['Images']:
+        # Do something with the image data
+        print(image)
+
+    # Check if there are more results
+    if 'NextToken' in response:
+        next_token = response['NextToken']
+    else:
+        # No more results, break out of the loop
+        break
